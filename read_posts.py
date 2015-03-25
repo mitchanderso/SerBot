@@ -7,7 +7,7 @@ import os
 # Globally create a user agent and our reddit object
 user_agent = ("Print the posts from my stupid dumb subreddit") 
 r = praw.Reddit(user_agent=user_agent)
-r.login('c_zer0', 'hello1')
+r.login('c_zer0', '-----')
 
 # isSerQuery - determing whether a comment is a SerBot query
 # @param - comment_body, the body of text to determine
